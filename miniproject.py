@@ -93,5 +93,5 @@ def upload_file():
 
     return render_template_string(HTML_TEMPLATE)
 
-if __name__ == '__main__':
+if _name_ == '__main__':
     app.run(debug=True)
